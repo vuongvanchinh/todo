@@ -1,11 +1,11 @@
-# todo
+# TODO
 
-## script
+## scripts
 
 ```
 npm start
 ```
-## description
+## Description
 * ReactJs
 * Redux
 * Redux Toolkit
