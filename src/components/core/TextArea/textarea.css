@@ -1,0 +1,31 @@
+.textarea textarea {
+    --outline: none;
+    padding: 0.5rem;
+    /* border-radius: 4px; */
+    outline: var(--outline);
+    /* width: 100%; */
+    /* border: 2px solid rgb(231, 230, 230); */
+    /* font-size: 1rem; */
+    height: 125px;
+    border: 1px solid #000;
+
+}
+
+.textarea--fullWidth textarea {
+    width: 100%;
+}
+
+.textarea__error textarea{
+    border-color: rgb(204, 73, 73);
+} 
+
+.textarea__error .error-message {
+    color: rgb(204, 73, 73);
+}
+
+.textarea label {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    display: block;
+}

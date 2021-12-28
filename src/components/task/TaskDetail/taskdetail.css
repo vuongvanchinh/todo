@@ -1,0 +1,38 @@
+.task-detail + .task-detail {
+    margin-top: 2rem;
+    
+}
+.task-detail__preview {
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+}
+.task-detail__preview input{
+    font-size: 1.2rem;
+}
+.task-detail__title {
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    flex-grow: 1;
+    padding: 0 1rem;
+    color: #333333;
+
+}
+.task-detail__actions {
+    display: flex;
+
+}
+.task-detail__actions>:first-child {
+    margin-right: 1rem;
+}
+
+.task-detail__form {
+    border: 1px solid  #000;
+    border-top: none;
+}
